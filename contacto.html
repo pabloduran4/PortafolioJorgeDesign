@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Contacto</title>
+  <link rel="stylesheet" href="css/estilos.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+</head>
+<body onload="deshabilitaRetroceso()">
+  <section id="envoltura">
+    <header class="header-contacto">
+		<a href="index.html"><img id="logo-header" src="img/logo-header.png" alt="logo-header"></a>
+			<nav>
+				<ul>
+					<li id="inicio"><a href="index.html">Inicio</a></li>
+					<li><a href="contacto.html">Contacto</a></li>
+				</ul>
+			</nav>
+		</header>
+		
+		<section id="contenedor-padre-formulario">
+	
+		  <article id="contenedor-formulario">
+		<form id="formulario" action="enviar.php" method="post">
+     
+    <label class="estilos-label" for="nombre">Nombre</label>
+    <input class="margen-input" type="text" required  name="nombre" id="nombre">
+    
+     <label class="estilos-label" for="email">Email</label>
+    <input class="margen-input" type="email" required name="email" id="nombre">
+    
+    <label class="estilos-label" for="asunto">Asunto</label>
+    <input class="margen-input" type="text" required  name="asunto" id="nombre">
+    
+    
+     <label class="estilos-label">Mensaje</label>
+    <textarea class="margen-input" name="mensaje" rows="10" cols="40"></textarea>
+    
+    <input id="enviar" type="submit" value="Enviar" name="enviar">
+    
+    <div id="resultado"></div>
+    </form>
+		  </article>
+		</section>
+		
+		
+	
+		 <footer>
+	   	<section id="pie">
+	   		<article id="contenedor-logo-footer"><img id="logo-footer" src="img/logo-footer.png" alt=""></article>
+	   		<article><a href="https://www.facebook.com/jorge.varela.56829"><img class="logo-redes" src="img/face.png" alt=""></a><a href="https://www.instagram.com/jorgevarela7/?hl=es-la"><img id="instagram" class="logo-redes" src="img/instagram.png" alt=""></a><a href="https://www.behance.net/jorgevarela"><img class="logo-redes" src="img/be.png" alt=""></a></article>
+	   		<article><img id="copy" src="img/copy.png" alt=""></article>
+	   	</section>
+	   </footer>
+  </section>
+</body>
+  <script src="js/jquery-3.2.1.min.js"></script>
+  <script>
+  function deshabilitaRetroceso(){
+    window.location.hash="no-back-button";
+    window.location.hash="Again-No-back-button" //chrome
+    window.onhashchange=function(){window.location.hash="no-back-button";}
+}
+  </script>
+ 
+</html>

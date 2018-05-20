@@ -1,0 +1,894 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+body{
+	background-color: #E3F2FD;
+}
+
+#envoltura{
+	max-width: 100%;
+}
+
+.envoltura-contacto{
+ display: flex; 
+ justify-content: center; 
+}
+
+#header{
+	background-color: #11131F;
+	display: flex;
+	justify-content: space-between;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+}
+
+#contenedor-logo-jorge{
+ margin-top: 5%; 
+}
+
+nav{
+	margin-top: 17px;
+	margin-right: 2%;
+}
+
+ul{
+	display: flex;
+	list-style-type: none;
+	font-size: 1.5em;
+}
+
+#inicio{
+position: relative;
+    right: 20%;
+}
+
+li a{
+	text-decoration: none;
+	color: white;
+}
+
+
+
+#logo-header{
+	height: 55px;
+}
+
+#portada{
+	background-color: #155987;
+	display: flex;
+  justify-content: center;
+}
+
+#logo-jorge{
+	width: 100%;
+  opacity: 0;
+}
+
+#diseno-grafico,#marcas,#ilustracion{
+  opacity: 0;
+}
+
+#habilidades{
+	
+	display: flex;
+	justify-content: space-around;
+	background-color: #BBDEFB;
+}
+
+.tamano-habilidades{
+	width: 93%;
+}
+
+.margen-habilidades{
+	margin-top: 2%;
+}
+
+.tamano-proyectos{
+	width: 98%;
+	border-radius: 4%;
+}
+
+#titulo-proyectos{
+	background-color: #E3F2FD;
+	text-align: center;
+  margin-bottom: 2%;
+	margin-top: 4%;
+}
+
+#img-titulo{
+	width: 25%;
+}
+
+.margen{
+	margin-bottom: 10%;
+}
+
+.diagramacion-proyectos{
+	display: flex;
+  justify-content: space-around;
+	background-color: #E3F2FD;
+}
+
+footer{
+	background-color: #11131F;
+}
+
+#pie{
+	text-align: center;
+}
+
+#logo-footer{
+	width: 19%;
+	margin-top: 3%;
+  margin-bottom: 0.5%;
+}
+
+.logo-redes{
+	width: 2.5%;
+	margin-bottom: 1%;
+}
+
+#instagram{
+	margin-left: 1%;
+  margin-right: 1%;
+}
+
+#copy{
+	width: 12%;
+}
+/*************termina home****************************/
+
+/************icon gallery******************/
+
+#contenedor-icon-gallery{
+  text-align: center;
+}
+
+#icon-titulo{
+  margin-top: 77px;
+  margin-bottom: 5%;
+  width: 62%;
+}
+
+.tamano-img-icon{
+  width: 48%;
+}
+
+/************lola crush******************/
+#contenedor-lola-crush{
+  text-align: center;
+}
+
+#lola-crush-titulo{
+  margin-top: 77px;
+  margin-bottom: 5%;
+  width: 47%;
+}
+
+.tamano-img-lola-crush{
+  width: 48%;
+}
+
+/************addict******************/
+
+#contenedor-addict{
+  text-align: center;
+}
+
+#addict-titulo{
+  margin-top: 77px;
+  margin-bottom: 5%;
+  width: 47%;
+}
+
+.tamano-img-addict{
+  width: 48%;
+}
+
+/************nanche******************/
+
+#contenedor-nache{
+  text-align: center;
+}
+
+#nache-titulo{
+  margin-top: 77px;
+  margin-bottom: 5%;
+  width: 47%;
+}
+
+.tamano-img-nache{
+  width: 48%;
+}
+
+/************world******************/
+
+#contenedor-world{
+  text-align: center;
+}
+
+#world-titulo{
+  margin-top: 77px;
+  margin-bottom: 5%;
+  width: 34%;
+}
+
+.tamano-img-world{
+  width: 48%;
+}
+
+/************wild******************/
+
+#contenedor-wild{
+  text-align: center;
+}
+
+#wild-titulo{
+  margin-top: 77px;
+  margin-bottom: 5%;
+  width: 31%;
+}
+
+.tamano-img-wild{
+  width: 48%;
+}
+
+/************spa******************/
+
+#contenedor-spa{
+  text-align: center;
+}
+
+#spa-titulo{
+  margin-top: 77px;
+  margin-bottom: 5%;
+  width: 44%;
+}
+
+.tamano-img-spa{
+  width: 48%;
+}
+
+/************copas******************/
+
+#contenedor-copas{
+  text-align: center;
+}
+
+#copas-titulo{
+  margin-top: 77px;
+  margin-bottom: 5%;
+  width: 44%;
+}
+
+.tamano-img-copas{
+  width: 48%;
+}
+
+/************1331******************/
+
+#contenedor-1331{
+  text-align: center;
+}
+
+#titulo-1331{
+  margin-top: 77px;
+  margin-bottom: 5%;
+  width: 44%;
+}
+
+.tamano-img-1331{
+  width: 48%;
+}
+
+/************boat******************/
+
+#contenedor-boat{
+  text-align: center;
+}
+
+#titulo-boat{
+  margin-top: 77px;
+  margin-bottom: 5%;
+  width: 51%;
+}
+
+.tamano-img-boat{
+  width: 48%;
+}
+
+/************race******************/
+
+#contenedor-race{
+  text-align: center;
+}
+
+#titulo-race{
+  margin-top: 77px;
+  margin-bottom: 5%;
+  width: 38%;
+}
+
+.tamano-img-race{
+  width: 48%;
+}
+
+/****************skate******************/
+
+#contenedor-skate{
+  text-align: center;
+}
+
+#titulo-skate{
+  margin-top: 77px;
+  margin-bottom: 5%;
+  width: 38%;
+}
+
+.tamano-img-skate{
+  width: 48%;
+}
+
+/****************vals******************/
+
+#contenedor-vals{
+  text-align: center;
+}
+
+#titulo-vals{
+  margin-top: 77px;
+  margin-bottom: 5%;
+  width: 38%;
+}
+
+.tamano-img-vals{
+  width: 48%;
+}
+
+/****************sinfonia******************/
+
+#contenedor-sinfonia{
+  text-align: center;
+}
+
+#titulo-sinfonia{
+  margin-top: 77px;
+  margin-bottom: 5%;
+  width: 38%;
+}
+
+.tamano-img-sinfonia{
+  width: 48%;
+}
+
+/****************magic******************/
+
+#contenedor-magic{
+  text-align: center;
+}
+
+#titulo-magic{
+  margin-top: 77px;
+  margin-bottom: 5%;
+  width: 33%;
+}
+
+.tamano-img-magic{
+  width: 48%;
+}
+
+/****************absolut******************/
+
+#contenedor-absolut{
+  text-align: center;
+}
+
+#titulo-absolut{
+  margin-top: 77px;
+  margin-bottom: 5%;
+  width: 33%;
+}
+
+.tamano-img-absolut{
+  width: 48%;
+}
+
+/****************red******************/
+
+#contenedor-red{
+  text-align: center;
+}
+
+#titulo-red{
+  margin-top: 77px;
+  margin-bottom: 5%;
+  width: 33%;
+}
+
+.tamano-img-red{
+  width: 48%;
+}
+
+/****************logofolio******************/
+
+#contenedor-logofolio{
+  text-align: center;
+}
+
+#titulo-logofolio{
+  margin-top: 77px;
+  margin-bottom: 5%;
+  width: 33%;
+}
+
+.tamano-img-logofolio{
+  width: 48%;
+}
+
+/****************infografia******************/
+
+#contenedor-infografia{
+  text-align: center;
+}
+
+#titulo-infografia{
+  margin-top: 77px;
+  margin-bottom: 5%;
+  width: 51%;
+}
+
+.tamano-img-infografia{
+  width: 48%;
+}
+
+/****************postales******************/
+
+#contenedor-postales{
+  text-align: center;
+}
+
+#titulo-postales{
+  margin-top: 77px;
+  margin-bottom: 5%;
+  width: 51%;
+}
+
+.tamano-img-postales{
+  width: 48%;
+}
+
+/****************kaleta******************/
+
+#contenedor-kaleta{
+  text-align: center;
+}
+
+#titulo-kaleta{
+  margin-top: 77px;
+  margin-bottom: 5%;
+  width: 39%;
+}
+
+.tamano-img-kaleta{
+  width: 48%;
+}
+
+/****************pictobailes******************/
+
+#contenedor-pictobailes{
+  text-align: center;
+}
+
+#titulo-pictobailes{
+  margin-top: 77px;
+  margin-bottom: 5%;
+  width: 28%;
+}
+
+.tamano-img-pictobailes{
+  width: 48%;
+}
+/****************sonidos******************/
+
+#contenedor-sonidos{
+  text-align: center;
+}
+
+#titulo-sonidos{
+  margin-top: 77px;
+  margin-bottom: 5%;
+  width: 42%;
+}
+
+.tamano-img-sonidos{
+  width: 48%;
+}
+/****************toy******************/
+
+#contenedor-toy{
+  text-align: center;
+}
+
+#titulo-toy{
+  margin-top: 77px;
+  margin-bottom: 5%;
+  width: 42%;
+}
+
+.tamano-img-toy{
+  width: 48%;
+}
+
+/**********formulario************/
+#contenedor-padre-formulario{
+  margin-top: 4%;
+}
+#contenedor-formulario{
+    background-color: #90CAF9;
+    width: 50%;
+    justify-content: center;
+    display: flex;
+    margin-left: 26%;
+    border-radius: 1%;
+    margin-bottom: 5%;
+}
+.header-contacto{
+  background-color: #11131F;
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: -1px;
+    z-index: 1;
+}
+form{
+  display: inline-grid;
+  margin-top: 9%;
+  margin-bottom: 8%;
+  width: 48%;
+}
+
+#resultado{
+      color: white;
+      font-size: 1.3em;
+      font-family: sans-serif;
+      opacity: 0;
+}
+
+#enviar{
+      background-color: #64B5F6;
+      color: white;
+      width: 39%;
+      font-size: 1.1em;
+      margin-bottom: 7%;
+      border-bottom-color: 64B5F6;
+      border-left-color: #64B5F6;
+      border-top-color: #64B5F6;
+      border-right-color: #64B5F6;
+      border-bottom-width: 0px;
+      border-right-width: 0px;
+}
+
+.estilos-label{
+      color: white;
+      font-size: 1.4em;
+      font-family: sans-serif;
+}
+
+.margen-input{
+  margin-bottom: 6%;
+  border-bottom-width:  0px;
+  border-left-width:  0px;
+  border-top-width:  0px;
+  border-right-width: 0px;
+  color:  #757575;
+  /* color:  white; */
+}
+
+textarea{
+  resize: none;
+}
+
+/***************enviado****************/
+#section-enviado{
+  text-align: center;
+}
+#contenedor-msj-enviado{
+  width: 47%;
+    margin-top: 3%;
+    margin-bottom: 2%;
+}
+#btn-regresar{
+      position: absolute;
+    width: 12%;
+    top: 60%;
+    right: 45%;
+}
+
+/************************media queries***********************************/
+@media only screen and (max-width: 768px){
+  #habilidades{
+    flex-direction: column;
+  }
+  .margen-habilidades{
+    text-align: center;
+  }
+  .tamano-habilidades {
+    width: 40%;
+}
+  .diagramacion-proyectos{
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .margen-movil{
+    margin-top: 10%;
+    margin-bottom: 10%;
+  }
+  
+  #contenedor-logo-jorge{
+    margin-top: 18%;
+    text-align:  center;
+  }
+  
+  #img-titulo{
+    width: 44%;
+  }
+  
+  #logo-footer{
+    width: 45%;
+  }
+  
+  .logo-redes{
+    width: 8.5%;
+  }
+  
+  #copy{
+    width: 35%;
+  }
+  
+  .tamano-proyectos{
+    width: 81%;
+  }
+  
+  #logo-jorge{
+    width: 85%;
+  }
+  html, body {
+    overflow-x: hidden;
+  }
+  body {
+    position: relative
+  }
+  /*************termina home****************************/
+  
+  /****************galery icon********************/
+  #icon-titulo{
+    width: 100%;
+  }
+  .tamano-img-icon {
+    width: 93%;
+}
+  
+   /****************lola crush********************/
+  #lola-crush-titulo{
+    width: 90%;
+  }
+  .tamano-img-lola-crush {
+    width: 93%;
+  }
+  
+    /****************addict********************/
+  #addict-titulo{
+    width: 90%;
+  }
+  .tamano-img-addict{
+    width: 93%;
+  }
+  
+    /****************nache********************/
+  #nache-titulo{
+    width: 90%;
+  }
+  .tamano-img-nache{
+    width: 93%;
+  }
+  
+   /****************world********************/
+  #world-titulo{
+    width: 90%;
+  }
+  .tamano-img-world{
+    width: 93%;
+  }
+  
+    /****************wild********************/
+  #wild-titulo{
+    width: 90%;
+  }
+  .tamano-img-wild{
+    width: 93%;
+  }
+  
+   /****************spa********************/
+  #spa-titulo{
+    width: 90%;
+  }
+  .tamano-img-spa{
+    width: 93%;
+  }
+   /****************copas********************/
+  #copas-titulo{
+    width: 90%;
+  }
+  .tamano-img-copas{
+    width: 93%;
+  }
+   /****************1331********************/
+  #titulo-1331{
+    width: 90%;
+  }
+  .tamano-img-1331{
+    width: 93%;
+  }
+   /****************boat********************/
+  #titulo-boat{
+    width: 90%;
+  }
+  .tamano-img-boat{
+    width: 93%;
+  }
+   /****************race********************/
+  #titulo-race{
+    width: 90%;
+  }
+  .tamano-img-race{
+    width: 93%;
+  }
+  /****************skate********************/
+  #titulo-skate{
+    width: 90%;
+  }
+  .tamano-img-skate{
+    width: 93%;
+  }
+  /****************vals********************/
+  #titulo-vals{
+    width: 90%;
+  }
+  .tamano-img-vals{
+    width: 93%;
+  }
+   /****************sinfonia********************/
+  #titulo-sinfonia{
+    width: 90%;
+  }
+  .tamano-img-sinfonia{
+    width: 93%;
+  }
+   /****************magic********************/
+  #titulo-magic{
+    width: 90%;
+  }
+  .tamano-img-magic{
+    width: 93%;
+  }
+   /****************absolut********************/
+  #titulo-absolut{
+    width: 90%;
+  }
+  .tamano-img-absolut{
+    width: 93%;
+  }
+  /****************red********************/
+  #titulo-red{
+    width: 90%;
+  }
+  .tamano-img-red{
+    width: 93%;
+  }
+   /****************logofolio********************/
+  #titulo-logofolio{
+    width: 90%;
+  }
+  .tamano-img-logofolio{
+    width: 93%;
+  }
+  /****************infografia********************/
+  #titulo-infografia{
+    width: 95%;
+  }
+  .tamano-img-infografia{
+    width: 93%;
+  }
+  /****************postales********************/
+  #titulo-postales{
+    width: 95%;
+  }
+  .tamano-img-postales{
+    width: 93%;
+  }
+  /****************kaleta********************/
+  #titulo-kaleta{
+    width: 95%;
+  }
+  .tamano-img-kaleta{
+    width: 93%;
+  }
+   /****************pictobailes********************/
+  #titulo-pictobailes{
+    width: 95%;
+  }
+  .tamano-img-pictobailes{
+    width: 93%;
+  }
+    /****************sonidos********************/
+  #titulo-sonidos{
+    width: 95%;
+  }
+  .tamano-img-sonidos{
+    width: 93%;
+  }
+    /****************toy********************/
+  #titulo-toy{
+    width: 95%;
+  }
+  .tamano-img-toy{
+    width: 93%;
+  }
+  
+  /***formulario******/
+  #contenedor-formulario{
+    width: 67%;
+    margin-left: 17%;
+  }
+  
+  form{
+    width: 60%;
+  }
+  
+  #btn-regresar{
+    top: 33%;
+    right: 40%;
+    width: 24%;
+  }
+  #contenedor-msj-enviado{
+    width: 82%;
+  }
+}
+
+@media only screen and (max-width: 500px){
+  #contenedor-formulario{
+    width: 87%;
+    margin-left: 8%;
+  }
+  form{
+    width: 71%;
+  }
+}
+
+@media only screen and (max-width: 1097px ){
+  #btn-regresar{
+    top: 53%;
+  }
+}
+
+@media only screen and (max-width: 958px ){
+  #btn-regresar{
+    top: 45%;
+  }
+}
+
+@media only screen and (max-width: 500px ){
+  #contenedor-msj-enviado{
+    width: 94%;
+  }
+  #btn-regresar{
+    width: 29%;
+    right: 38%;
+  }
+}
+
+
